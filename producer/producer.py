@@ -1,1 +1,9 @@
-print("Kafka Producer Running")
+from kafka import KafkaProducer
+
+producer = KafkaProducer(
+    bootstrap_servers='localhost:9092'
+)
+
+producer.send('orders', b'new order')
+
+print("Message Sent")
