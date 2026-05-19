@@ -1,1 +1,1 @@
-
+print("Kafka Producer Running")
