@@ -1,1 +1,7 @@
-
+Producer
+   ↓
+Kafka Topic
+   ↓
+Spark Streaming
+   ↓
+Processed Output
